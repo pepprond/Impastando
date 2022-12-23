@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ImpastoPizza"
-    >
+    android:orientation="vertical"
+    tools:context=".ImpastoPizza">
 
 
     <TextView
@@ -18,22 +18,16 @@
         android:fontFamily="@font/roboto_bold"
         android:text="@string/text_Impasto_pizza"
         android:textColor="@color/black"
-        android:textSize="@dimen/text_fragment_size"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="@dimen/text_fragment_size" />
 
     <EditText
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="@dimen/width_num"
         android:layout_height="@dimen/heigth_num"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="16dp"
         android:autofillHints=""
         android:ems="10"
+        android:layout_marginHorizontal="100dp"
         android:hint="@string/text_grammi"
         android:inputType="numberDecimal"
-        android:textColorHint="#757575"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_pizza" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColorHint="#757575" />
+</LinearLayout>
