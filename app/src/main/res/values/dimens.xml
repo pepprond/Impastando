@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="size_image_button">150dp</dimen>
+    <dimen name="text_button_width">152dp</dimen>
+    <dimen name="text_button_height">24dp</dimen>
+    <dimen name="text_button_size">20sp</dimen>
+    <dimen name="text_fragment_size">28sp</dimen>
+    <dimen name="text_size_grammi">16sp</dimen>
+    <dimen name="width_num">230dp</dimen>
+    <dimen name="heigth_num">48dp</dimen>
+</resources>

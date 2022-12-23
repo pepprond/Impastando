@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Impastando</string>
+    <string name="action_NuovaRicetta">Nuova Ricetta</string>
+    <string name="action_Impostazioni">Impostazioni</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Menù Impasti</string>
+    <string name="second_fragment_label">Impasto Pizza</string>
+    <string name="third_fragment_label">Impasto Frolla</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_button_pizza">Impasto Pizza</string>
+    <string name="text_button_gravity">center</string>
+    <string name="text_button_frolla">Impasto Frolla</string>
+    <string name="text_Impasto_pizza">Quanti Kg di pizza vuoi fare?</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_grammi">scrivi la quantità in grammi</string>
+    <string name="text_frolla">Quanti Kg di frolla vuoi fare?</string>
+    <string name="text_boh">grammi da scrivere</string>
+</resources>

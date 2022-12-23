@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.example.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_NuovaRicetta"
+        android:orderInCategory="100"
+        android:title="@string/action_NuovaRicetta"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_impostazioni"
+        android:orderInCategory="100"
+        android:title="@string/action_Impostazioni"
+        app:showAsAction="never" />
+</menu>

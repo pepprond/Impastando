@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.android.example.myapplication.MenuImpasti"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/menu_impasti">
+
+        <action
+            android:id="@+id/action_MenuImpasti_to_ImpastoPizza"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_impastoFrolla"
+            app:destination="@id/impastoFrolla" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.android.example.myapplication.ImpastoPizza"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/impasto_pizza">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/impastoFrolla"
+        android:name="com.android.example.myapplication.ImpastoFrolla"
+        android:label="@string/third_fragment_label"
+        tools:layout="@layout/impasto_frolla" >
+        <action
+            android:id="@+id/action_impastoFrolla_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+</navigation>

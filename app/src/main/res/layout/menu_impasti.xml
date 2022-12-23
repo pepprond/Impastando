@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuImpasti">
+
+    <ImageButton
+        android:id="@+id/imageButtonpizza"
+        android:layout_width="@dimen/size_image_button"
+        android:layout_height="@dimen/size_image_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/text_button_pizza"
+        android:src="@drawable/immagineimpastopizza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/text_button_pizza"
+        android:layout_width="@dimen/text_button_width"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_button_pizza"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_button_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpizza" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFrolla"
+        android:layout_width="@dimen/size_image_button"
+        android:layout_height="@dimen/size_image_button"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/text_button_frolla"
+        android:src="@drawable/immagineimpastofrolla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/text_Button_Frolla"
+        android:layout_width="@dimen/text_button_width"
+        android:layout_height="@dimen/text_button_height"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/text_button_frolla"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_button_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFrolla" />
+</androidx.constraintlayout.widget.ConstraintLayout>
