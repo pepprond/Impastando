@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Impastando</string>
+    <string name="action_NuovaRicetta" translatable="false">Nuova Ricetta</string>
+    <string name="action_Impostazioni" translatable="false">Impostazioni</string>
+    <string name="first_fragment_label" translatable="false">Lista Impasti</string>
+    <string name="second_fragment_label" translatable="false">Impasto Pizza</string>
+    <string name="hello_blank_fragment">Impasto Frolla</string>
+    <string name="text_Impasto_pizza" translatable="false">Quanti Kg di pizza vuoi fare?</string>
+    <string name="text_button_frolla" translatable="false">Impasto Frolla</string>
+    <string name="text_button_pizza" translatable="false">Impasto Pizza</string>
+    <string name="text_frolla" translatable="false">Quanti Kg di frolla vuoi fare?</string>
+    <string name="text_grammi" translatable="false">scrivi la quantità in grammi</string>
+    <string name="third_fragment_label" translatable="false">Impasto Frolla</string>
+</resources>

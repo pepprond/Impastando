@@ -8,49 +8,38 @@
 
     <ImageButton
         android:id="@+id/imageButtonpizza"
-        android:layout_width="@dimen/size_image_button"
-        android:layout_height="@dimen/size_image_button"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="50dp"
         android:contentDescription="@string/text_button_pizza"
         android:src="@drawable/immagineimpastopizza"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck"
+        style="@style/ImageButton_normal"/>
 
     <TextView
         android:id="@+id/text_button_pizza"
-        android:layout_width="@dimen/text_button_width"
-        android:layout_height="@dimen/text_button_height"
-        android:layout_marginStart="16dp"
-        android:fontFamily="@font/roboto_bold"
         android:text="@string/text_button_pizza"
-        android:textColor="#000000"
-        android:textSize="@dimen/text_button_size"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonpizza" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpizza"
+        style="@style/textButton_normal"/>
 
     <ImageButton
         android:id="@+id/imageButtonFrolla"
-        android:layout_width="@dimen/size_image_button"
-        android:layout_height="@dimen/size_image_button"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="16dp"
         android:contentDescription="@string/text_button_frolla"
         android:src="@drawable/immagineimpastofrolla"
+        app:layout_constraintBottom_toTopOf="@+id/text_Button_Frolla"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonpizza"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck"
+        style="@style/ImageButton_normal" />
 
     <TextView
         android:id="@+id/text_Button_Frolla"
-        android:layout_width="@dimen/text_button_width"
-        android:layout_height="@dimen/text_button_height"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="@font/roboto_bold"
+
         android:text="@string/text_button_frolla"
-        android:textColor="#000000"
-        android:textSize="@dimen/text_button_size"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonFrolla" />
+        app:layout_constraintStart_toEndOf="@+id/text_button_pizza"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFrolla"
+        style="@style/textButton_normal" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

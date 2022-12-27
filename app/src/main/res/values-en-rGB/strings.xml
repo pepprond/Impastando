@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Impastando</string>
+    <string name="action_Impostazioni" translatable="false">Settings</string>
+    <string name="action_NuovaRicetta" translatable="false">New Recipe</string>
+    <string name="first_fragment_label" translatable="false">Dough List</string>
+    <string name="second_fragment_label" translatable="false">Pizza Dough</string>
+    <string name="third_fragment_label" translatable="false">Shortcrust Pastry Dough</string>
+    <string name="text_button_pizza" translatable="false">Pizza Dough</string>
+    <string name="text_button_frolla" translatable="false">Pastry Dough</string>
+    <string name="text_Impasto_pizza" translatable="false">how many kilos of pizza?</string>
+    <string name="text_frolla" translatable="false">how many kilos of shortcrust pastry?</string>
+    <string name="hello_blank_fragment" translatable="false">Shortcrust Pastry Dough</string>
+    <string name="text_grammi" translatable="false">write the amount in grams</string>
+</resources>
