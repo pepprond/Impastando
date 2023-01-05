@@ -22,7 +22,7 @@
     <EditText
         android:id="@+id/editTextNumberDecimal2"
         android:layout_width="230dp"
-        android:layout_height="@dimen/heigth_num"
+        android:layout_height="@dimen/height_num"
         android:autofillHints=""
         android:ems="10"
         android:layout_marginHorizontal="100dp"

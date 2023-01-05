@@ -8,12 +8,16 @@
 
     <ImageButton
         android:id="@+id/imageButtonpizza"
+        style="@style/ImageButton_normal"
+        android:layout_width="@dimen/size_image_button"
+        android:layout_height="@dimen/size_image_button"
+        android:layout_marginStart="@dimen/Margin_start_button"
+        android:layout_marginTop="@dimen/margin_top_button"
         android:contentDescription="@string/text_button_pizza"
-        android:src="@drawable/immagineimpastopizza"
+        android:src="@drawable/ic_baseline_local_pizza_24"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck"
-        style="@style/ImageButton_normal"/>
+        app:layout_constraintTop_toBottomOf="@+id/titleImage"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/text_button_pizza"
@@ -22,24 +26,38 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButtonpizza"
         style="@style/textButton_normal"/>
 
+
     <ImageButton
         android:id="@+id/imageButtonFrolla"
+        style="@style/ImageButton_normal"
+        android:layout_marginTop="@dimen/margin_top_button"
+        android:layout_marginEnd="@dimen/Margin_start_button"
         android:contentDescription="@string/text_button_frolla"
         android:src="@drawable/immagineimpastofrolla"
-        app:layout_constraintBottom_toTopOf="@+id/text_Button_Frolla"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButtonpizza"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck"
-        style="@style/ImageButton_normal" />
+        app:layout_constraintTop_toBottomOf="@+id/titleImage"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
         android:id="@+id/text_Button_Frolla"
 
+        style="@style/textButton_normal"
         android:text="@string/text_button_frolla"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/text_button_pizza"
-        app:layout_constraintTop_toBottomOf="@+id/imageButtonFrolla"
-        style="@style/textButton_normal" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFrolla" />
+
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/Margin_start_button"
+        android:layout_marginEnd="@dimen/Margin_start_button"
+        android:src="@drawable/immagineimpastofrolla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

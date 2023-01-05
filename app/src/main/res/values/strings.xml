@@ -15,5 +15,7 @@
     <string name="hello_blank_fragment" translatable="false">Impasto Frolla</string>
     <string name="text_grammi" translatable="false">scrivi la quantità in grammi</string>
     <string name="text_frolla" translatable="false">Quanti Kg di frolla vuoi fare?</string>
-
+    <string name="textButtonInput">Impasta</string>
+    <string name="prova1">ciao questa è una prova</string>
+    <string name="prova2"></string>
 </resources>

@@ -5,9 +5,9 @@
     <dimen name="text_button_height">24dp</dimen>
     <dimen name="text_button_size">20sp</dimen>
     <dimen name="text_fragment_size">28sp</dimen>
-    <dimen name="text_size_grammi">16sp</dimen>
+    <dimen name="text_size_grams">16sp</dimen>
     <dimen name="width_num">230dp</dimen>
-    <dimen name="heigth_num">48dp</dimen>
+    <dimen name="height_num">48dp</dimen>
     <dimen name="Margin_start_button">16dp</dimen>
     <dimen name="margin_top_button">50dp</dimen>
 </resources>

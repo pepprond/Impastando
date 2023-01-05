@@ -23,11 +23,19 @@
     <EditText
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="@dimen/width_num"
-        android:layout_height="@dimen/heigth_num"
+        android:layout_height="@dimen/height_num"
         android:autofillHints=""
         android:ems="10"
         android:layout_marginHorizontal="100dp"
         android:hint="@string/text_grammi"
         android:inputType="numberDecimal"
         android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textButtonInput" />
+
+
 </LinearLayout>
