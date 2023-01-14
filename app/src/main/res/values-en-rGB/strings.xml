@@ -12,4 +12,12 @@
     <string name="text_frolla" translatable="false">how many kilos of shortcrust pastry?</string>
     <string name="hello_blank_fragment" translatable="false">Shortcrust Pastry Dough</string>
     <string name="text_grammi" translatable="false">write the amount in grams</string>
+    <string name="textButtonInput">Knead</string>
+    <string name="textButtonCrepes">Crepes Dough</string>
+    <string name="text_Impasto_crepes">how many kilos of crêpes?</string>
+    <string name="impastoFrolla">Pastry Dough</string>
+    <string name="impastoPizza">Pizza Dough</string>
+    <string name="impastocrepes">Crêpes Dough</string>
+    <string name="navigazione">navigation</string>
+
 </resources>

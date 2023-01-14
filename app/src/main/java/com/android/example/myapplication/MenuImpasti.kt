@@ -9,15 +9,11 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.navigation.fragment.findNavController
 import com.android.example.myapplication.databinding.MenuImpastiBinding
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
+
 class MenuImpasti : Fragment() {
 
     private var _binding: MenuImpastiBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -34,11 +30,14 @@ class MenuImpasti : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.imageButtonFrolla.setOnClickListener{
-            findNavController().navigate(R.id.action_FirstFragment_to_impastoFrolla)
+            findNavController().navigate(R.id.action_MenuImpasti_to_impastoFrolla)
         }
 
         binding.imageButtonpizza.setOnClickListener {
             findNavController().navigate(R.id.action_MenuImpasti_to_ImpastoPizza)
+        }
+        binding.imageButtonCrepes.setOnClickListener {
+            findNavController().navigate(R.id.action_MenuImpasti_to_impastoCrepes)
         }
 
         val imageTitle = ResourcesCompat.getDrawable(resources, R.drawable.impastando,null)

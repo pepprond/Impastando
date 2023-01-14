@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ImpastoPizza">
+    tools:context=".ImpastoCrepes">
 
 
     <TextView
@@ -17,20 +16,20 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/text_Impasto_pizza"
+        android:text="@string/text_Impasto_crepes"
         android:textColor="@color/black"
         android:textSize="@dimen/text_fragment_size" />
 
     <EditText
-        android:layout_gravity="center_horizontal"
         android:id="@+id/editTextNumberDecimal"
         android:layout_width="@dimen/width_num"
         android:layout_height="@dimen/height_num"
         android:autofillHints=""
+        android:layout_gravity="center_horizontal"
         android:ems="10"
-        android:gravity="center"
-        android:layout_marginHorizontal="100dp"
         android:textSize="@dimen/text_button_size"
+
+        android:layout_marginHorizontal="100dp"
         android:hint="@string/text_grammi"
         android:inputType="numberDecimal"
         android:textColorHint="#757575" />

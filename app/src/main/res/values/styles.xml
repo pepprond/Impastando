@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="ImageButton_normal">
-        <item name="android:layout_width">@dimen/size_image_button</item>
-        <item name="android:layout_height">@dimen/size_image_button</item>
-        <item name="android:layout_marginStart">@dimen/Margin_start_button</item>
-        <item name="android:layout_marginTop">@dimen/margin_top_button</item>
-        <item name="android:layout_marginEnd">@dimen/Margin_start_button</item>
-    </style>
-
     <style name="textButton_normal">
         <item name="android:layout_width">@dimen/text_button_width</item>
         <item name="android:layout_height">@dimen/text_button_height</item>
@@ -17,5 +9,15 @@
         <item name="android:fontFamily">@font/roboto_bold</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">@dimen/text_button_size</item>
+    </style>
+
+    <style name="ImageButton_normal">
+        <item name="android:layout_width">@dimen/size_image_button</item>
+        <item name="android:layout_height">@dimen/size_image_button</item>
+        <item name="android:layout_marginStart">@dimen/Margin_start_button</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:contentDescription">@string/text_button_pizza</item>
+        <item name="android:scaleType">fitCenter</item>
     </style>
 </resources>

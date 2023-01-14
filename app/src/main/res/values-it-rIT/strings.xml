@@ -12,4 +12,11 @@
     <string name="text_frolla" translatable="false">Quanti Kg di frolla vuoi fare?</string>
     <string name="text_grammi" translatable="false">scrivi la quantità in grammi</string>
     <string name="third_fragment_label" translatable="false">Impasto Frolla</string>
+    <string name="textButtonInput">Impasta</string>
+    <string name="textButtonCrepes">Impasto Crêpes</string>
+    <string name="text_Impasto_crepes">Quanti Kg di crepes vuoi fare?</string>
+    <string name="impastoFrolla">Impasto Frolla</string>
+    <string name="impastoPizza">Impasto Pizza</string>
+    <string name="impastocrepes">Impasto Crêpes</string>
+    <string name="navigazione">navigazione</string>
 </resources>

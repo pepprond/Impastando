@@ -3,38 +3,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    android:label="@string/navigazione"
+    app:startDestination="@id/MenuImpasti">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/MenuImpasti"
         android:name="com.android.example.myapplication.MenuImpasti"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/menu_impasti">
 
         <action
             android:id="@+id/action_MenuImpasti_to_ImpastoPizza"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/impastopizza" />
         <action
-            android:id="@+id/action_FirstFragment_to_impastoFrolla"
+            android:id="@+id/action_MenuImpasti_to_impastoFrolla"
             app:destination="@id/impastoFrolla" />
+        <action
+            android:id="@+id/action_MenuImpasti_to_impastoCrepes"
+            app:destination="@id/impastoCrepes" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/impastopizza"
         android:name="com.android.example.myapplication.ImpastoPizza"
-        android:label="@string/second_fragment_label"
+        android:label="@string/impastoPizza"
         tools:layout="@layout/impasto_pizza">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/MenuImpasti" />
     </fragment>
     <fragment
         android:id="@+id/impastoFrolla"
         android:name="com.android.example.myapplication.ImpastoFrolla"
-        android:label="@string/third_fragment_label"
-        tools:layout="@layout/impasto_frolla" >
+        android:label="@string/impastoFrolla"
+        tools:layout="@layout/impasto_frolla">
         <action
-            android:id="@+id/action_impastoFrolla_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_impastoFrolla_to_MenuImpasti"
+            app:destination="@id/MenuImpasti" />
+    </fragment>
+    <fragment
+        android:id="@+id/impastoCrepes"
+        android:name="com.android.example.myapplication.ImpastoCrepes"
+        android:label="@string/impastocrepes"
+        tools:layout="@layout/impasto_crepes">
+        <action
+            android:id="@+id/action_impastoCrepes_to_MenuImpasti"
+            app:destination="@id/MenuImpasti" />
     </fragment>
 </navigation>

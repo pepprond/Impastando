@@ -8,6 +8,7 @@
     tools:context=".ImpastoFrolla">
 
     <TextView
+        android:layout_gravity="center_horizontal"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,13 +22,22 @@
 
     <EditText
         android:id="@+id/editTextNumberDecimal2"
-        android:layout_width="230dp"
+        android:layout_width="@dimen/width_num"
         android:layout_height="@dimen/height_num"
         android:autofillHints=""
+        android:layout_gravity="center_horizontal"
         android:ems="10"
         android:layout_marginHorizontal="100dp"
         android:gravity="center"
+        android:textSize="@dimen/text_button_size"
         android:hint="@string/text_grammi"
         android:inputType="numberDecimal"
         android:textColorHint="#757575" />
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_button_size"
+        android:text="@string/textButtonInput" />
 </LinearLayout>

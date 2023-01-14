@@ -1,21 +1,24 @@
 <resources>
-    <string name="app_name" translatable="false">Impastando</string>
-    <string name="action_NuovaRicetta" translatable="false">Nuova Ricetta</string>
-    <string name="action_Impostazioni" translatable="false">Impostazioni</string>
+    <string name="app_name">Impastando</string>
+    <string name="action_NuovaRicetta">Nuova Ricetta</string>
+    <string name="action_Impostazioni">Impostazioni</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label" translatable="false">Lista Impasti</string>
-    <string name="second_fragment_label" translatable="false">Impasto Pizza</string>
-    <string name="third_fragment_label" translatable="false">Impasto Frolla</string>
+    <string name="first_fragment_label">Lista Impasti</string>
+    <string name="second_fragment_label">Impasto Pizza</string>
+    <string name="third_fragment_label">Impasto Frolla</string>
 
-    <string name="text_button_pizza" translatable="false">Impasto Pizza</string>
+    <string name="text_button_pizza">Impasto Pizza</string>
     <string name="text_button_gravity" translatable="false">center</string>
-    <string name="text_button_frolla" translatable="false">Impasto Frolla</string>
-    <string name="text_Impasto_pizza" translatable="false">Quanti Kg di pizza vuoi fare?</string>
-
-    <string name="hello_blank_fragment" translatable="false">Impasto Frolla</string>
-    <string name="text_grammi" translatable="false">scrivi la quantità in grammi</string>
-    <string name="text_frolla" translatable="false">Quanti Kg di frolla vuoi fare?</string>
+    <string name="text_button_frolla">Impasto Frolla</string>
+    <string name="text_Impasto_pizza">Quanti Kg di pizza vuoi fare?</string>
+    <string name="text_Impasto_crepes">Quanti Kg di crêpes vuoi fare?</string>
+    <string name="hello_blank_fragment">Impasto Frolla</string>
+    <string name="text_grammi">scrivi la quantità in grammi</string>
+    <string name="text_frolla">Quanti Kg di frolla vuoi fare?</string>
     <string name="textButtonInput">Impasta</string>
-    <string name="prova1">ciao questa è una prova</string>
-    <string name="prova2"></string>
+    <string name="textButtonCrepes">Impasto Crêpes</string>
+    <string name="impastocrepes">Impasto Crêpes</string>
+    <string name="impastoFrolla">Impasto Frolla</string>
+    <string name="impastoPizza">Impasto Pizza</string>
+    <string name="navigazione">navigazione</string>
 </resources>

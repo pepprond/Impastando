@@ -1,13 +1,17 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="size_image_button">150dp</dimen>
+    <dimen name="size_image_button">100dp</dimen>
     <dimen name="text_button_width">152dp</dimen>
     <dimen name="text_button_height">24dp</dimen>
-    <dimen name="text_button_size">20sp</dimen>
+    <dimen name="text_button_size">16sp</dimen>
     <dimen name="text_fragment_size">28sp</dimen>
     <dimen name="text_size_grams">16sp</dimen>
     <dimen name="width_num">230dp</dimen>
     <dimen name="height_num">48dp</dimen>
-    <dimen name="Margin_start_button">16dp</dimen>
-    <dimen name="margin_top_button">50dp</dimen>
+    <dimen name="Margin_start_button">28dp</dimen>
+    <dimen name="margin_topButton">10dp</dimen>
+    <dimen name="margin_start_text">24dp</dimen>
+    <dimen name="margin_text_end">24dp</dimen>
+    <dimen name="button_width">90</dimen>
+    <dimen name="button_height">45</dimen>
 </resources>

@@ -7,9 +7,17 @@
     <string name="second_fragment_label" translatable="false">Masa de pizza</string>
     <string name="text_button_pizza" translatable="false">Masa de pizza</string>
     <string name="third_fragment_label" translatable="false">Masa quebrada</string>
-    <string name="text_button_frolla" translatable="false">Masa quebrada</string>
+    <string name="text_button_frolla" translatable="false">Masa Quebrada</string>
     <string name="hello_blank_fragment" translatable="false">Masa quebrada</string>
     <string name="text_Impasto_pizza" translatable="false">¿Cuántos kilos de pizza?</string>
     <string name="text_frolla" translatable="false">¿Cuántos kilos de masa quebrada?</string>
     <string name="text_grammi" translatable="false">Escribe la cantidad en gramos</string>
+    <string name="textButtonInput">Amasa</string>
+    <string name="textButtonCrepes">Masa de Crêpes</string>
+    <string name="text_Impasto_crepes">¿Cuántos kilos de crêpes?</string>
+    <string name="impastoFrolla">Masa Quebrada</string>
+    <string name="impastoPizza">Masa de pizza</string>
+    <string name="impastocrepes">Masa de Crêpes</string>
+    <string name="navigazione">navegación</string>
+
 </resources>
